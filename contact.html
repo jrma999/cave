@@ -1,0 +1,106 @@
+
+       <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demande de Catalogue - SFCV</title>
+    <link href="stylesheet.css" rel="stylesheet"/>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0;">
+
+<div style="width: 60%; margin: auto; border: 1px solid #ffffff; padding: 20px;">
+    <div style="text-align: center;">
+            <img src="image/logo.png" alt="logo"> 
+        <h1>SFCV</h1>
+        <h3>N°1 des caves à vins</h3>
+    </div>
+
+    <div style="margin: 20px 0;">
+        <a href="index.html" style="margin-right: 15px; text-decoration: none; color: rgb(255, 255, 255);">Accueil</a>
+        <a href="produits.html" style="margin-right: 15px; text-decoration: none; color:  rgb(255, 255, 255);">Produits</a>
+        <a href="contact.html" style="margin-right: 15px; text-decoration: none; color:  rgb(255, 255, 255);">Contact</a>
+        <a href="services.html" style="margin-right: 15px; text-decoration: none; color: rgb(255, 255, 255);">services</a>
+    </div>
+
+    <h2>Demande de catalogue</h2>
+    <p>Demandez-vous vite notre catalogue gratuit !<br>Il vous sera livré dans les meilleurs délais.</p>
+
+    <form action="mailto:info@sfcv.com" method="post" enctype="text/plain" name="demande" id="demande">
+        <div style="margin-bottom: 10px;">
+            <label for="civilite" style="display: block; font-weight: bold;">Civilité</label>
+            <select id="civilite" name="civilite" style="width: 100%; padding: 5px; border: 1px solid #ccc;">
+                <option value="1" selected>Monsieur</option>
+                <option value="2">Madame</option>
+                <option value="3">dinosaure</option>
+            </select>
+        </div>
+
+        <div style="margin-bottom: 10px;">
+            <label for="nom" style="display: block; font-weight: bold;">Nom</label>
+            <input type="text" id="nom" name="nom" value="" required style="width: 100%; padding: 5px; border: 1px solid #ccc;">
+        </div>
+
+        <div style="margin-bottom: 10px;">
+            <label for="prenom" style="display: block; font-weight: bold;">Prénom</label>
+            <input type="text" id="prenom" name="prenom" value="" required style="width: 100%; padding: 5px; border: 1px solid #ccc;">
+        </div>
+
+        <div style="margin-bottom: 10px;">
+            <label for="adresse" style="display: block; font-weight: bold;">Adresse</label>
+            <input type="text" id="adresse" name="adresse" value="" required style="width: 100%; padding: 5px; border: 1px solid #ccc;">
+        </div>
+
+        <div style="margin-bottom: 10px;">
+            <label for="ville" style="display: block; font-weight: bold;">Ville</label>
+            <input type="text" id="ville" name="ville" value="" required style="width: 100%; padding: 5px; border: 1px solid #ccc;">
+        </div>
+
+        <div style="margin-bottom: 10px;">
+            <label for="codepostal" style="display: block; font-weight: bold;">Code Postal</label>
+            <input type="text" id="codepostal" name="codepostal" value="" required style="width: 100%; padding: 5px; border: 1px solid #ccc;">
+        </div>
+
+        <div style="margin-bottom: 10px;">
+            <label for="email" style="display: block; font-weight: bold;">Courriel</label>
+            <input type="email" id="email" name="email" value="" required style="width: 100%; padding: 5px; border: 1px solid #ccc;">
+        </div>
+
+        <div style="margin-bottom: 10px;">
+            <input type="checkbox" id="newslettre" name="newslettre" value="oui">
+            <label for="newslettre" style="display: inline-block;">Je souhaite recevoir la newsletter</label>
+        </div>
+
+        <input type="hidden" name="action" value="Envoyer">
+
+        <button type="submit" style="padding: 10px 20px; border: none; background-color: blue; color: white; cursor: pointer;">Envoyer</button>
+    </form>
+
+    <div style="font-size: 12px; margin-top: 20px; border-top: 1px solid #000; padding-top: 10px;">
+        <p>Ce site a fait l’objet d’une déclaration auprès de la Commission Nationale Informatique et Libertés (CNIL). Conformément aux dispositions de la loi Informatique et libertés du 06/01/1978, vous disposez d’un droit de modification, de rectification et d’opposition/suppression des données vous concernant par simple demande à : info@sfcv.com</p>
+        <p>N’hésitez pas à prendre contact avec l’équipe SFCV. Nous répondrons à toutes vos questions sur l’aménagement de votre cave ou le choix de votre armoire à vin. Tous les conseils de professionnels pour conserver vos meilleurs vins en toute sécurité pour le plaisir des dégustateurs en toute convivialité.</p>
+        <hr>
+        <p>© SFCV - <a href="#" style="text-decoration: none; color: blue;">Mentions légales</a></p>
+        <p><strong>L’abus d’alcool est dangereux pour la santé, à consommer avec modération.</strong></p>
+    </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
